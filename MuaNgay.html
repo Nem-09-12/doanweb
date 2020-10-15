@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>website</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no ">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+	<link rel="stylesheet" href="css/MuaNgay.css">	
+  <link rel="stylesheet" type="text/css" href="js/scrip.js">	
+	<script src="js/popper.min.js"></script>	
+	<script src="js/jquery-3.3.1.slim.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	</head>
+<body>
+		<div class="logo ">
+			<div class="container">
+				<div class="row ">
+					<div class="col text-center"><img src="images/LOGO2.png" class="img-fluid" ></div></div> 
+			</div>
+		</div>
+	<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-"><h4 style="height: 35px"><marquee style="margin-top: 7px; color:#FF0000; ">Chào mừng quý khách đã đến với shop bánh sinh nhật DADDY.
+        Quý Khách hãy chọn mẫu bánh theo yêu cầu tại các mục lớn ở dưới hoặc vào phần Menu.
+        Cam Kết: 100% không chất bảo quản-Làm mới 100% trước khi giao bánh-FREE SHIP!!!</marquee></h4></div>
+			</div>
+	</div>
+		
+<section class=" nvb-mainmenu">
+    <div class="container-fluid">
+        <nav class="navbar sticky-top navbar-expand-lg navbar-light">
+          <button class="navbar-toggler do" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"     aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html" style="color: #FEFCFC">TRANG CHỦ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="GioiThieu.html" style="color: #FEFCFC">GIỚI THIỆU</a>
+              </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" style="color:#FEFCFC "> SẢN PHẨM </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="IPHONE.html">BÁNH KEM</a>
+                </div>
+            </li>
+    
+            <li class="nav-item">
+                <a class="nav-link" href="#" style="color: #FEFCFC">KHUYẾN MÃI</a>
+            </li>
+     
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown" style="color:#FEFCFC ">TƯ VẤN ĐẶT HÀNG</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">TƯ VẤN BÁNH KEM</a>
+                <a class="dropdown-item" href="#">BÁNH KEM MỚI NHẤT</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" style="color: #FEFCFC">GIỎ HÀNG(0) </a>
+              </li>
+            </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="TÌM KIẾM">
+            <button class="btn btn-warning my-2 my-sm-0" type="submit">TÌM KIẾM</button>
+          </form>
+        </div>
+    </nav>
+    </div>
+  </section>
+
+<div class="container row10 cc">
+
+<div class="row">
+  <div class="col-md-2">
+  
+  </div>
+
+  <div class="col-md-8 form">
+    <h5 style="text-align:center;color: red ">THÔNG TIN KHÁCH HÀNG</h5>
+    <hr>
+    <form id="muahang" action="" onsubmit="return kiemtra();" >
+  <div class="form-row ">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4"><b>Họ Tên(*):</b></label>
+      <input type="text" class="form-control" id="hoten" placeholder="Họ tên" name="hoten" >
+      <span id="errorhoten" style="color: red"></span>
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4"><b>Email:</b></label>
+      <input type="Email" class="form-control" id="inputPassword4" placeholder="Email">
+      <span id="erroremail" style="color: red"></span>
+    </div>
+  </div>
+   <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputCity"><b>Số điện thoại(*): </b> </label>
+      <input type="text" class="form-control" id="sdt" name="sdt">
+      <span id="errorsdt" style="color: red"></span>
+    </div>
+
+    <div class="form-group col-md-6">
+      <label for="inputZip"><b>Mã giảm giá:</b></label>
+      <input type="text" class="form-control" id="inputZip">
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="inputAddress"><b>Địa chỉ(*):</b></label>
+    <input type="text" class="form-control" id="diachi" name="diachi" placeholder="...xã(phường)-huyện(quận)-tĩnh(thành phố)">
+    <span id="errordiachi" style="color: red"></span>
+  </div>
+  <div class="form-group">
+    <label for="inputAddress2"><b>Ghi chú:</b></label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="">
+  </div>
+ 
+  <div class="form-group">
+    <div class="form-check">
+<h5>Phương thức thanh toán:</h5>
+      
+    <div class="form-check">
+      <label class="form-check-label" for="radio2">
+        <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">Giao hàng thu tiền tại nhà
+      </label>
+    </div>
+    <div class="form-check">
+      <label class="form-check-label" for="radio2">
+        <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">Thanh toán qua ViettelPay
+      </label>
+    </div>
+  </div>
+  <div class=" row m">
+    <div class="col-md-3"></div>
+    <div class="col-md-3 py-4">
+     
+  <input onclick="kiemtra();" type="submit"class="btn btn-primary " name="muahang" value="Mua hàng"style="border-radius:10px;width: 150px" >
+ 
+  </div>
+ 
+  <div class="col-md-3"></div>
+</div>
+</div>
+</form>
+  </div>
+  <div class="col-md-2">
+    
+  </div>
+  
+</div>
+
+</div>
+</div>
+</div>  
+</div>
+
+<div class="container-fluid nvb-footer border-top py-4">
+    <div class="container">
+      <div class="row ">
+        <div class="col-md">         
+          <div><a href="#"><img src="http://daddyparis.com/wp-content/uploads/2016/05/Asset-1.png" class="img-fluid" style="width: 253px;"></a>
+           <div><p><span><i class="fas fa-map-marker-alt"></i> Cơ sở 1: Nam Kì Khởi Nghĩa - Ngũ Hành Sơn - TP Đà Nẵng</span><br>
+            <span style="font-family: arial, helvetica, sans-serif;"><i class="fas fa-map-marker-alt"></i> Cơ sở 2: Quy Hậu - Liên Thủy - Lệ Thủy - Quảng Bình</span></p>
+           <span ><i class="fas fa-phone"></i> HOTLINE LIÊN HỆ: 0889.176.009</span><br>
+           <span><i class="fas fa-envelope"></i> gmail:dttnga.19it5@sict.udn.vn</span>
+           <p><span><i class="fas fa-envelope"></i> gmail:thanhngathptlt@gmail.com</span></p>
+            <span >Thơi gian làm việc:</span><br>
+            <span >&nbsp;07:00 a.m - 22:00 p.m</span></div>
+            </div>
+       </div>
+       <div class="col-md">
+       <ul class="binh"><br><br>
+        <li><h4 style=" margin-left: -37px;" >KẾT NỐI VỚI CHÚNG TÔI<hr></h4></li>
+        <li> <div class="lienket" style="margin-bottom: 28px;margin-left: 2px;">
+            
+        </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+ <script>
+
+    function kiemtra(){
+        var hoten = document.getElementById("hoten").value;
+        var sdt = document.getElementById("sdt").value;
+        var diachi = document.getElementById("diachi").value;
+         // var ktrpass = /^([A-Z]){1}([A-Za-z0-9.@%#]+){5,12}$/;
+         // if (!ktrpass.test(pass))
+         //   {
+         //  alert("Mật khẩu nhập từ 6-12 ký tự đặc biệt và dấu chấm, bắt đầu bởi chữ in hoa");
+         //  document.forms["form"].matkhat.focus();
+         //  return false;
+         //    }
+        if(hoten== ""){
+          document.getElementById("errorhoten").innerHTML="vui lòng nhập họ tên!";
+         // alert("vui lòng nhập đầy đủ họ tên!")
+         return false;
+        }
+        else{
+          document.getElementById("errorhoten").innerHTML="";
+        }
+            if(sdt== ""){
+          document.getElementById("errorsdt").innerHTML="vui lòng nhập số điện thoại của bạn!";
+         // alert("vui lòng nhập đầy đủ họ tên!")
+          return false;
+        }
+        else{
+          document.getElementById("errorsdt").innerHTML="";
+        }
+            if(diachi== ""){
+          document.getElementById("errordiachi").innerHTML="vui lòng nhập địa chỉ của bạn!";
+         // alert("vui lòng nhập đầy đủ họ tên!")
+          return false;
+        }
+        else{
+          document.getElementById("errordiachi").innerHTML="";
+        }
+
+    }
+ 
+</script>
+</body>
+
+
+
+
+
+
+
+
+

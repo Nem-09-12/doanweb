@@ -1,0 +1,336 @@
+.body{width: 100%}
+.logo img{
+	width: 284px;
+	height: 100px;
+}
+.chuchay .h4{
+	height: 35px
+}
+.nvb-slide .carousel-inner img{
+	height: 400%
+}
+
+.menu1 ul {
+  margin-top: px;
+
+  list-style-type: none;
+  text-align: right;
+  overflow: hidden;
+}
+.men   ul li {
+  
+  float: right;
+  width: 134px;
+  height: 40px;
+  line-height: 10px;
+  position: relative;
+}.meu ul li > .sub-menu{
+	display: none;
+	position: absolute;
+}
+.men ul li: hover .sub-menu{
+	display: block;
+}
+.menu1 ul li a{
+	color: #18c2ed;
+	text-decoration: none;
+	display: block;
+}
+.dk ul{
+	list-style-type: none;
+	overflow: hidden;
+	text-align: right;
+}
+.dk ul li{
+  float: right;
+  width: 120px;
+  height: 30px;
+  line-height: 8px;
+}
+.dk ul li a{
+	color: #18c2ed;
+	text-decoration: none;
+	display: block;}
+
+
+.nvb-header, .nvb-giua{
+	line-height: 80px;
+	background-color: #F8ADCE;
+
+}
+
+.nvb-mainmenu{
+background-color: #E02344;
+
+}
+..nvb-giua a{width: 92px;
+	height: 96px;
+
+}
+.nvb-giua img{
+	height: 96px;
+	width:92px;
+}
+.row-home2 img{
+	height: 148px;
+	width: 148px;
+
+}
+.item img{
+
+	width: 70%;
+
+    padding-top: 10px;}
+ .item {
+ 	text-align: center;
+ }
+ .item a{
+  padding: 2px;
+ }
+ .gachngang p {
+ 		font-weight: bold;
+ 		font-size: 23px;
+ 		text-align: left;
+ }
+ .gachngang .row h3{
+
+ }
+ 
+.img{
+			display: flex;
+			margin-left: 7px;
+			margin-top: 10px;
+			border-top-left-radius: 5px;
+			border-top-right-radius: 5px;
+			border-bottom-left-radius: 5px;
+			border-bottom-right-radius: 5px;
+		}
+		
+		
+		
+		
+		
+		}
+		a:link {
+		color: #47c0ba;
+		}
+		a:visited {
+		color: #000000;
+		}
+		a:hover {
+		color: #069adc;
+		}
+		#slider img{
+			margin-left: 5px;
+			width: 300px;
+			height: 250px;
+
+		}
+
+}
+.name a{
+	color: #EA83BE
+}
+.binh ul,li{
+	list-style: none;
+
+}
+.nvb-tintuc .name a{
+	text-decoration: none;
+}
+
+
+.binh a{
+	color: #060606;
+	text-decoration: none;
+}
+.them{
+	background-color: #E2F3FF;
+}
+.nvb-copyright, .nvb-footer{
+	background-color:#222222
+
+}
+.nvb-footer{
+	color: #D4D4D4
+}
+
+
+}
+.b a{
+text-decoration: none;
+}
+.bbb a{
+	 text-decoration: none;
+	 
+}
+.
+.product-item img{
+	
+  
+  transition: transform .5s;
+  display: block;
+}
+.product-item img:hover{
+	  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.1);
+}
+
+.ten a{
+		text-decoration: none;
+		text-align: center;
+}
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+ 
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+ 
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+ 
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+ 
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+    overflow:hidden;
+    width:100%;
+}
+.bi img{
+	width: 150px;
+height: 83px;
+}
+
+
+
+.menu .a{
+	list-style-type: none;
+	
+	text-align: right;
+}
+.menu  .e{
+	color: #FF0000;
+	display: inline-table;
+	width: 150px;
+	
+	line-height: 8px;
+	position: relative;
+}
+.menu  .e a{
+	color: #FF0000;
+	text-decoration: none;
+	display: block;
+}
+.nvb-tintuc {
+background-color: #E1E1E1
+}
+.tintuc p{
+	font-family:Palatino;
+	font-size: 17px;
+}
+.nvb-footer  .binh h4{
+	color:  #FF0000;
+}
+.nvb-copyright h4{
+color:  #FF0000;
+}
+.nvb-mainmenu ul li a:hover{
+	background: #FF8000;
+	color: #FF8000
+}
+.sanpham .ten a{
+	color: #FF0000;
+	font-size: 20px;
+
+}
+
+.huongvi .h4{
+	font-size: 18px;
+}
+
+	
+
+
+.owl-item {
+    padding:  10px;
+}
+.testimonial-item-body {
+   border-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+  
+    position: relative;
+    padding: 24px 40px;
+    background-color: rgba(0, 0, 0, 0.36);
+}
+.testimonial-item-body p {
+    font-size: 16px;
+    font-style: italic;
+    line-height: 24px;
+    color: #fff;
+}
+.testimonial-item-user img {
+    float: left;
+    margin-top: -25px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+}
+.testimonial-item-user  {
+    margin: 0;
+    padding: 30px 0 8px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #578a56;
+    text-transform: uppercase;
+}
+
+.testimonial-item-body::before {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 30px;
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 10px solid rgba(0, 0, 0, 0.36);
+
+}
+.cmt {
+	text-align: left;
+	margin-top: 10px;
+}
+

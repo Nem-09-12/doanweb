@@ -1,0 +1,225 @@
+.body{width: 100%}
+.logo img{
+	width: 284px;
+	height: 100px;
+}
+.chuchay .h4{
+	height: 35px
+}
+.nvb-slide .carousel-inner img{
+	height: 400%
+}
+
+.menu1 ul {
+  margin-top: px;
+
+  list-style-type: none;
+  text-align: right;
+  overflow: hidden;
+}
+.men   ul li {
+  
+  float: right;
+  width: 134px;
+  height: 40px;
+  line-height: 10px;
+  position: relative;
+}.meu ul li > .sub-menu{
+	display: none;
+	position: absolute;
+}
+.men ul li: hover .sub-menu{
+	display: block;
+}
+.menu1 ul li a{
+	color: #18c2ed;
+	text-decoration: none;
+	display: block;
+}
+.dk ul{
+	list-style-type: none;
+	overflow: hidden;
+	text-align: right;
+}
+.dk ul li{
+  float: right;
+  width: 120px;
+  height: 30px;
+  line-height: 8px;
+}
+.dk ul li a{
+	color: #18c2ed;
+	text-decoration: none;
+	display: block;}
+
+
+.nvb-header, .nvb-giua{
+	line-height: 80px;
+	background-color: #F8ADCE;
+
+}
+.hinhanh h5{
+	text-align:center;
+	color: #FF0000;
+	margin-top: 20px;}
+.form-row {
+	text-align:left;
+	color: red 
+}
+.dangki a{
+	border-radius:10px;
+	 width: 1150px
+}
+.anhlogo img{
+	width: 253px;
+}
+.nvb-mainmenu{
+background-color: #E02344;
+
+}
+..nvb-giua a{width: 92px;
+	height: 96px;
+
+}
+.nvb-giua img{
+	height: 96px;
+	width:92px;
+}
+.row-home2 img{
+	height: 148px;
+	width: 148px;
+
+}
+.item img{
+
+	width: 70%;
+
+    padding-top: 10px;}
+ .item {
+ 	text-align: center;
+ }
+ .item a{
+  padding: 2px;
+ }
+ .gachngang p {
+ 		font-weight: bold;
+ 		font-size: 23px;
+ }
+ .gachngang .row h3{
+
+ }
+ 
+.img{
+			display: flex;
+			margin-left: 7px;
+			margin-top: 10px;
+			border-top-left-radius: 5px;
+			border-top-right-radius: 5px;
+			border-bottom-left-radius: 5px;
+			border-bottom-right-radius: 5px;
+		}
+		
+		
+		
+		
+		
+		}
+		a:link {
+		color: #47c0ba;
+		}
+		a:visited {
+		color: #000000;
+		}
+		a:hover {
+		color: #069adc;
+		}
+		#slider img{
+			margin-left: 5px;
+			width: 300px;
+			height: 250px;
+
+		}
+
+}
+.name a{
+	color: #EA83BE
+}
+.binh ul,li{
+	list-style: none;
+
+}
+.nvb-tintuc .name a{
+	text-decoration: none;
+}
+
+
+.binh a{
+	color: #060606;
+	text-decoration: none;
+}
+.them{
+	background-color: #E2F3FF;
+}
+.nvb-copyright, .nvb-footer{
+	background-color:#222222
+
+}
+.nvb-footer{
+	color: #D4D4D4
+}
+
+
+}
+.b a{
+text-decoration: none;
+}
+.bbb a{
+	 text-decoration: none;
+	 
+}
+
+.menu .a{
+	list-style-type: none;
+	
+	text-align: right;
+}
+.menu  .e{
+	color: #FF0000;
+	display: inline-table;
+	width: 150px;
+	
+	line-height: 8px;
+	position: relative;
+}
+.menu  .e a{
+	color: #FF0000;
+	text-decoration: none;
+	display: block;
+}
+.nvb-tintuc {
+background-color: #E1E1E1
+}
+.tintuc p{
+	font-family:Palatino;
+	font-size: 17px;
+}
+.nvb-footer  .binh h4{
+	color:  #FF0000;
+}
+.nvb-copyright h4{
+color:  #FF0000;
+}
+.nvb-mainmenu ul li a:hover{
+	background: #FF8000;
+	color: #FF8000
+}
+.sanpham .ten a{
+	color: #FF0000;
+	font-size: 20px;
+
+}
+
+.huongvi .h4{
+	font-size: 18px;
+}
+
